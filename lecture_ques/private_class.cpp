@@ -14,7 +14,7 @@ public:
 };
 
 int calculator::mul(int a, int b){
-    return m*n;
+    return a*b;
 }
 
 int main(){
