@@ -1,6 +1,12 @@
  #include <iostream>
 using namespace std;
-
+/*
+   basiclly calculator class ke jo functions hai uski definations hume inside the class nhi deni hai 
+   instead defination hume last m deni h bole toh main() k upr ;
+   
+   uske alawa sumcomplex() ka answer galat aayega bcz return toh hum 2 values krra re hai and upr se hum return values ko ek he variable mai 
+   store krre h 
+*/
 class complex;
 class calculator {
     public :
