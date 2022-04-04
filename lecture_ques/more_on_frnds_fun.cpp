@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class y;
+class y;        //forward declaration 
 class x {
     private :
         int val;
