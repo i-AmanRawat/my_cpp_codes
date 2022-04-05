@@ -17,7 +17,7 @@ public:
         cout << "complex number is : " << a << "+" << b << "i" << endl;
     }
 
-    friend sumcomplex(complex o1, complex o2);
+    friend void sumcomplex(complex o1, complex o2);
     // can be defined in private or public part 
 
     void sumrealpart(complex o1, complex o2)
