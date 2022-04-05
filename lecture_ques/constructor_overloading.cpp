@@ -21,7 +21,7 @@ class complex{
 };
 
 int main (){
-    complex c1;
+    complex c1;         //paranthesis mt lagaeo iss mein
     complex c2(3);
     complex c3(4,6);
 
