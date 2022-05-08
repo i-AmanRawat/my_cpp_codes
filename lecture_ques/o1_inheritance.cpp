@@ -22,7 +22,7 @@ class employee {
             3. Private Visibility Mode : Public members of base class become Private member of derived class.
             4. Private members cannot be accessed. 
 */
-class programmer : employee {   //{{base class}} employee (base class) jo hai automatically default constructor ko call krte hai 
+class programmer : employee {   //{{base class}} --> employee --> base class jo hai automatically default constructor ko call krte hai 
     public :
         programmer (int prgid){
             id = prgid;
