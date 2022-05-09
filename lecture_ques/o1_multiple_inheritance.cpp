@@ -3,6 +3,8 @@ using namespace std ;
 /*
     Example of Multiple Inheritance :
         Student --> Marks --> Result     //inheritance path 
+      
+    protected keyword : similar to the private but the only difference is that its members can be inherited 
 */
 class student {
     protected :
