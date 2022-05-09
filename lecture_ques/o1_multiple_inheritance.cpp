@@ -3,21 +3,22 @@ using namespace std ;
 /*
     Example of Multiple Inheritance :
         Student --> Marks --> Result     //inheritance path 
-      
-    protected keyword : similar to the private but the only difference is that its members can be inherited 
 */
 class student {
     protected :
+        string name;
         int roll_number ;
     public :
-        void set_roll_number (int);
-        void get_roll_number (void);
+        void set_data (string , int);
+        void get_data (void);
 };
-void student :: set_roll_number(int r ){
+void student :: set_data(string n ,int r ){
+    name = n;
     roll_number = r ;
 }
-void student :: get_roll_number (){
-    cout << "Your Roll Number is " << roll_number << endl;
+void student :: get_data (){
+    cout << "Roll Number : " << roll_number << endl;
+    cout << "Name : " << name << endl;
 }
 
 class marks : public student {
@@ -52,8 +53,8 @@ void result :: display(void){
 
 int main (){
     result r1;
-    r1.set_roll_number(1);
-    r1.get_roll_number();
+    r1.set_data("Aman" , 1);
+    r1.get_data();
     r1.set_marks(95,97);
     r1.display();
 }
