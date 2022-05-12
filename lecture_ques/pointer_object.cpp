@@ -45,7 +45,8 @@ int main(){
     
     //FOURTH OBJECET ;
     A A;
-    ////Yes, It is allowed to define a method with the same name as that of a class.There is no compile-time or runtime error will occur.
+    //Yes, It is allowed to define a method with the same name as that of a class.There is no compile-time or runtime error will occur.
+    //we have used this feature in line 33 and line 38 i.e. # A *ptr2 = new A ;
     A.setdata(7);
     A.printdata();
 }
