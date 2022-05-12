@@ -30,7 +30,7 @@ int main(){
     ptr -> printdata();
 
     // SECOND OBJECT ;
-    A *ptr2 = new A ;
+    A *ptr2 = new A ;   //Yes, It is allowed to define a method with the same name as that of a class.There is no compile-time or runtime error will occur.
     ptr2 ->setdata(7);
     ptr2 ->printdata();
 
