@@ -5,11 +5,12 @@ using namespace std;
 class base {
     public :
         int var_base=1;
-        virtual void display (void){        // virtual function 
+        virtual void display (void){
             cout <<"Display 1 is called : "<< endl;
             cout << "value of var_base is "<< var_base<<endl;
         }
 };
+// virtual function declare krne k baad pointer jis class k object ko point krra hoga vo uske he diplay function ko run krega 
 
 class derived : public base {
     public :
