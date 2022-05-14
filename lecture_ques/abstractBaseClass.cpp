@@ -1,8 +1,8 @@
-//  ABSTRACT CLASS AND PURE VIRTUAL FUNCTION 
+//  ABSTRACT BASE CLASS AND PURE VIRTUAL FUNCTION 
 #include <iostream>
 using namespace std;
 /*
-    Abstract class #iss class ko abstract krke other classes ko define krenge and iss class ka object nhi form krenge. abstract class mein ek pure virtual function
+    Abstract base class #iss class ko abstract krke other classes ko define krenge and iss class ka object nhi form krenge. abstract class mein ek pure virtual function
     hota hai (also known as do nothing function) (function = 0 # syntax)
     do nothing function iss liye bnate hai taaki har derived class mein uski defination likhne pde agr use krna hai toh bcz ab tum do nothing toh kuch krne nhi
     walla .
