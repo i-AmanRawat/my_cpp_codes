@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 //  pointer to derived class
+//  late binding 
 class base {
     public :
         int var_base;
