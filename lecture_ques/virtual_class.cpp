@@ -63,3 +63,7 @@ int main (){
     s1.set_score(90);
     s1.display();
 }
+/*
+we made the student (base class) virtual bcz we were inheriting test and sports class from it and finally result class from test and sports 
+so just to avoid the duplicacy for member in the result class while inheriting test and sports we included student virtually.
+*/
