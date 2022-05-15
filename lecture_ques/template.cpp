@@ -24,7 +24,7 @@ using namespace std;
     basically the datatype we want to customize we using T as a datatype while defining the template.
 */
 //template class
-template <class T>      // "T" --> custum datatype
+template <class T>      // "T" --> custum datatype  we can use some other variable name as well instead of using T
 class vec {
     public :
         T *arr;
